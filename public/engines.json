@@ -1,0 +1,134 @@
+[
+	{
+		"name": "Stockfish",
+		"version": "16",
+		"os": "windows",
+		"bmi2": true,
+		"image": "https://upload.wikimedia.org/wikipedia/commons/3/3a/NewLogoSF.png",
+		"downloadLink": "https://github.com/official-stockfish/Stockfish/releases/download/sf_16/stockfish-windows-x86-64-avx2.zip",
+		"path": "stockfish/stockfish-windows-x86-64-avx2.exe",
+		"elo": 3532,
+		"downloadSize": 27493794
+	},
+	{
+		"name": "Stockfish",
+		"version": "16",
+		"os": "windows",
+		"bmi2": false,
+		"image": "https://upload.wikimedia.org/wikipedia/commons/3/3a/NewLogoSF.png",
+		"downloadLink": "https://github.com/official-stockfish/Stockfish/releases/download/sf_16/stockfish-windows-x86-64-modern.zip",
+		"path": "stockfish/stockfish-windows-x86-64-modern.exe",
+		"elo": 3532,
+		"downloadSize": 27493794
+	},
+	{
+		"name": "Stockfish",
+		"version": "16",
+		"os": "macos",
+		"bmi2": true,
+		"image": "https://upload.wikimedia.org/wikipedia/commons/3/3a/NewLogoSF.png",
+		"downloadLink": "https://github.com/official-stockfish/Stockfish/releases/download/sf_16/stockfish-macos-x86-64-modern.tar",
+		"path": "stockfish/stockfish-macos-x86-64-modern",
+		"elo": 3532,
+		"downloadSize": 41702400
+	},
+	{
+		"name": "Stockfish",
+		"version": "16",
+		"os": "macos",
+		"bmi2": false,
+		"image": "https://upload.wikimedia.org/wikipedia/commons/3/3a/NewLogoSF.png",
+		"downloadLink": "https://github.com/official-stockfish/Stockfish/releases/download/sf_16/stockfish-macos-x86-64-modern.tar",
+		"path": "stockfish/stockfish-macos-x86-64-modern",
+		"elo": 3532,
+		"downloadSize": 41702400
+	},
+	{
+		"name": "Stockfish",
+		"version": "16",
+		"os": "linux",
+		"bmi2": true,
+		"image": "https://upload.wikimedia.org/wikipedia/commons/3/3a/NewLogoSF.png",
+		"downloadLink": "https://github.com/official-stockfish/Stockfish/releases/download/sf_16/stockfish-ubuntu-x86-64-avx2.tar",
+		"path": "stockfish/stockfish-ubuntu-x86-64-avx2",
+		"elo": 3532,
+		"downloadSize": 27522651
+	},
+	{
+		"name": "Stockfish",
+		"version": "16",
+		"os": "linux",
+		"bmi2": false,
+		"image": "https://upload.wikimedia.org/wikipedia/commons/3/3a/NewLogoSF.png",
+		"downloadLink": "https://github.com/official-stockfish/Stockfish/releases/download/sf_16/stockfish-ubuntu-x86-64-modern.tar",
+		"path": "stockfish/stockfish-ubuntu-x86-64-modern",
+		"elo": 3532,
+		"downloadSize": 27168656
+	},
+	{
+		"name": "Komodo",
+		"version": "14",
+		"os": "windows",
+		"bmi2": true,
+		"image": "https://images.chesscomfiles.com/uploads/v1/images_users/tiny_mce/ColinStapczynski/php2OzLMj.jpeg",
+		"downloadLink": "https://komodochess.com/pub/komodo-14.zip",
+		"path": "komodo-14_224afb/Windows/komodo-14.1-64bit-bmi2.exe",
+		"elo": 3387,
+		"downloadSize": 9745847
+	},
+	{
+		"name": "Komodo",
+		"version": "14",
+		"os": "windows",
+		"bmi2": false,
+		"image": "https://images.chesscomfiles.com/uploads/v1/images_users/tiny_mce/ColinStapczynski/php2OzLMj.jpeg",
+		"downloadLink": "https://komodochess.com/pub/komodo-14.zip",
+		"path": "komodo-14_224afb/Windows/komodo-14.1-64bit.exe",
+		"elo": 3387,
+		"downloadSize": 9745847
+	},
+	{
+		"name": "Komodo",
+		"version": "14",
+		"os": "linux",
+		"bmi2": true,
+		"image": "https://images.chesscomfiles.com/uploads/v1/images_users/tiny_mce/ColinStapczynski/php2OzLMj.jpeg",
+		"downloadLink": "https://komodochess.com/pub/komodo-14.zip",
+		"path": "komodo-14_224afb/Linux/komodo-14.1-linux-bmi2",
+		"elo": 3387,
+		"downloadSize": 9745847
+	},
+	{
+		"name": "Komodo",
+		"version": "14",
+		"os": "linux",
+		"bmi2": false,
+		"image": "https://images.chesscomfiles.com/uploads/v1/images_users/tiny_mce/ColinStapczynski/php2OzLMj.jpeg",
+		"downloadLink": "https://komodochess.com/pub/komodo-14.zip",
+		"path": "komodo-14_224afb/Linux/komodo-14.1-linux",
+		"elo": 3387,
+		"downloadSize": 9745847
+	},
+	{
+		"name": "Komodo",
+		"version": "14",
+		"os": "macos",
+		"bmi2": true,
+		"image": "https://images.chesscomfiles.com/uploads/v1/images_users/tiny_mce/ColinStapczynski/php2OzLMj.jpeg",
+		"downloadLink": "https://komodochess.com/pub/komodo-14.zip",
+		"path": "komodo-14_224afb/OSX/komodo-14.1-64-bmi2-osx",
+		"elo": 3387,
+		"downloadSize": 9745847
+	},
+	{
+		"name": "Komodo",
+		"version": "14",
+		"os": "macos",
+		"bmi2": false,
+		"image": "https://images.chesscomfiles.com/uploads/v1/images_users/tiny_mce/ColinStapczynski/php2OzLMj.jpeg",
+		"downloadLink": "https://komodochess.com/pub/komodo-14.zip",
+		"path": "komodo-14_224afb/OSX/komodo-14.1-64-osx",
+		"elo": 3387,
+		"downloadSize": 9745847
+	}
+]

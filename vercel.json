@@ -1,0 +1,20 @@
+{
+    "rewrites": [
+      {
+        "source": "/databases",
+        "destination": "/databases.json"
+      },
+      {
+        "source": "/engines",
+        "destination": "/engines.json"
+      },
+      {
+        "source": "/puzzle_databases",
+        "destination": "/puzzle_databases.json"
+      },
+      {
+        "source": "/updates",
+        "destination": "https://github.com/franciscoBSalgueiro/en-croissant/releases/latest/download/latest.json"
+      }
+    ]
+  }
