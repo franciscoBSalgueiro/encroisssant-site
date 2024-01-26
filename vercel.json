@@ -15,6 +15,10 @@
       {
         "source": "/updates",
         "destination": "https://github.com/franciscoBSalgueiro/en-croissant/releases/latest/download/latest.json"
+      },
+      {
+        "source": "/downloads/lc0.zip",
+        "destination": "https://www.googleapis.com/drive/v3/files/1Wz1sz0LFHl7UbYTeO3xplWgkwDeHuPas?alt=media&key=AIzaSyCjUyWe9a5yNqmOYziea2FhJkpgRXnFzbU"
       }
     ]
   }

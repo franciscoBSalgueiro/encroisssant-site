@@ -7,7 +7,7 @@
 		"image": "https://upload.wikimedia.org/wikipedia/commons/3/3a/NewLogoSF.png",
 		"downloadLink": "https://github.com/official-stockfish/Stockfish/releases/download/sf_16/stockfish-windows-x86-64-avx2.zip",
 		"path": "stockfish/stockfish-windows-x86-64-avx2.exe",
-		"elo": 3532,
+		"elo": 3631,
 		"downloadSize": 27493794
 	},
 	{
@@ -18,7 +18,7 @@
 		"image": "https://upload.wikimedia.org/wikipedia/commons/3/3a/NewLogoSF.png",
 		"downloadLink": "https://github.com/official-stockfish/Stockfish/releases/download/sf_16/stockfish-windows-x86-64-modern.zip",
 		"path": "stockfish/stockfish-windows-x86-64-modern.exe",
-		"elo": 3532,
+		"elo": 3631,
 		"downloadSize": 27493794
 	},
 	{
@@ -29,7 +29,7 @@
 		"image": "https://upload.wikimedia.org/wikipedia/commons/3/3a/NewLogoSF.png",
 		"downloadLink": "https://github.com/official-stockfish/Stockfish/releases/download/sf_16/stockfish-macos-x86-64-modern.tar",
 		"path": "stockfish/stockfish-macos-x86-64-modern",
-		"elo": 3532,
+		"elo": 3631,
 		"downloadSize": 41702400
 	},
 	{
@@ -40,7 +40,7 @@
 		"image": "https://upload.wikimedia.org/wikipedia/commons/3/3a/NewLogoSF.png",
 		"downloadLink": "https://github.com/official-stockfish/Stockfish/releases/download/sf_16/stockfish-macos-x86-64-modern.tar",
 		"path": "stockfish/stockfish-macos-x86-64-modern",
-		"elo": 3532,
+		"elo": 3631,
 		"downloadSize": 41702400
 	},
 	{
@@ -51,7 +51,7 @@
 		"image": "https://upload.wikimedia.org/wikipedia/commons/3/3a/NewLogoSF.png",
 		"downloadLink": "https://github.com/official-stockfish/Stockfish/releases/download/sf_16/stockfish-ubuntu-x86-64-avx2.tar",
 		"path": "stockfish/stockfish-ubuntu-x86-64-avx2",
-		"elo": 3532,
+		"elo": 3631,
 		"downloadSize": 27522651
 	},
 	{
@@ -62,7 +62,7 @@
 		"image": "https://upload.wikimedia.org/wikipedia/commons/3/3a/NewLogoSF.png",
 		"downloadLink": "https://github.com/official-stockfish/Stockfish/releases/download/sf_16/stockfish-ubuntu-x86-64-modern.tar",
 		"path": "stockfish/stockfish-ubuntu-x86-64-modern",
-		"elo": 3532,
+		"elo": 3631,
 		"downloadSize": 27168656
 	},
 	{
@@ -73,7 +73,7 @@
 		"image": "https://images.chesscomfiles.com/uploads/v1/images_users/tiny_mce/ColinStapczynski/php2OzLMj.jpeg",
 		"downloadLink": "https://komodochess.com/pub/komodo-14.zip",
 		"path": "komodo-14_224afb/Windows/komodo-14.1-64bit-bmi2.exe",
-		"elo": 3387,
+		"elo": 3479,
 		"downloadSize": 9745847
 	},
 	{
@@ -84,7 +84,7 @@
 		"image": "https://images.chesscomfiles.com/uploads/v1/images_users/tiny_mce/ColinStapczynski/php2OzLMj.jpeg",
 		"downloadLink": "https://komodochess.com/pub/komodo-14.zip",
 		"path": "komodo-14_224afb/Windows/komodo-14.1-64bit.exe",
-		"elo": 3387,
+		"elo": 3479,
 		"downloadSize": 9745847
 	},
 	{
@@ -95,7 +95,7 @@
 		"image": "https://images.chesscomfiles.com/uploads/v1/images_users/tiny_mce/ColinStapczynski/php2OzLMj.jpeg",
 		"downloadLink": "https://komodochess.com/pub/komodo-14.zip",
 		"path": "komodo-14_224afb/Linux/komodo-14.1-linux-bmi2",
-		"elo": 3387,
+		"elo": 3479,
 		"downloadSize": 9745847
 	},
 	{
@@ -106,7 +106,7 @@
 		"image": "https://images.chesscomfiles.com/uploads/v1/images_users/tiny_mce/ColinStapczynski/php2OzLMj.jpeg",
 		"downloadLink": "https://komodochess.com/pub/komodo-14.zip",
 		"path": "komodo-14_224afb/Linux/komodo-14.1-linux",
-		"elo": 3387,
+		"elo": 3479,
 		"downloadSize": 9745847
 	},
 	{
@@ -117,7 +117,7 @@
 		"image": "https://images.chesscomfiles.com/uploads/v1/images_users/tiny_mce/ColinStapczynski/php2OzLMj.jpeg",
 		"downloadLink": "https://komodochess.com/pub/komodo-14.zip",
 		"path": "komodo-14_224afb/OSX/komodo-14.1-64-bmi2-osx",
-		"elo": 3387,
+		"elo": 3479,
 		"downloadSize": 9745847
 	},
 	{
@@ -128,7 +128,18 @@
 		"image": "https://images.chesscomfiles.com/uploads/v1/images_users/tiny_mce/ColinStapczynski/php2OzLMj.jpeg",
 		"downloadLink": "https://komodochess.com/pub/komodo-14.zip",
 		"path": "komodo-14_224afb/OSX/komodo-14.1-64-osx",
-		"elo": 3387,
+		"elo": 3479,
 		"downloadSize": 9745847
+	},
+	{
+		"name": "Leela Chess Zero",
+		"version": "0.30.0",
+		"os": "windows",
+		"bmi2": true,
+		"image": "https://lczero.org/images/logo.svg",
+		"downloadLink": "https://www.encroissant.org/downloads/lc0.zip",
+		"path": "lc0-v0.30.0-windows-gpu-nvidia-cuda/lc0.exe",
+		"elo": 3440,
+		"downloadSize": 251872888
 	}
 ]
