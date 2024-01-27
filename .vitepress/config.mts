@@ -11,10 +11,10 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "Home", link: "/" },
+      { text: "Support", link: "/support" },
       { text: "Documentation", link: "/docs/" },
       { text: "Download", link: "/download" },
     ],
-
     search: {
       provider: "local",
     },
@@ -32,14 +32,20 @@ export default defineConfig({
           text: "Guides",
           items: [
             { text: "Analyze Game", link: "/docs/guides/analyze-game" },
-            { text: "Manage repertoire", link: "/docs/guides/manage-repertoire" },
+            {
+              text: "Manage repertoire",
+              link: "/docs/guides/manage-repertoire",
+            },
           ],
         },
-        
+
         {
           text: "Reference",
           items: [
-            { text: "Database Format", link: "/docs/reference/database-format" },
+            {
+              text: "Database Format",
+              link: "/docs/reference/database-format",
+            },
           ],
         },
       ],
