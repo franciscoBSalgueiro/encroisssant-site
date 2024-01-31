@@ -1,0 +1,29 @@
+[[redirects]]
+from = "/databases"
+to = "/databases.json"
+status = 200
+force = true
+
+[[redirects]]
+from = "/engines"
+to = "/engines.json"
+status = 200
+force = true
+
+[[redirects]]
+from = "/puzzle_databases"
+to = "/puzzle_databases.json"
+status = 200
+force = true
+
+[[redirects]]
+from = "/updates"
+to = "https://github.com/franciscoBSalgueiro/en-croissant/releases/latest/download/latest.json"
+status = 200
+force = true
+
+[[redirects]]
+from = "/downloads/lc0.zip"
+to = "https://www.googleapis.com/drive/v3/files/1Wz1sz0LFHl7UbYTeO3xplWgkwDeHuPas?alt=media&key=AIzaSyCjUyWe9a5yNqmOYziea2FhJkpgRXnFzbU"
+status = 200
+force = true
