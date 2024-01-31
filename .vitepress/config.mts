@@ -7,6 +7,7 @@ export default defineConfig({
     "An open-source, cross-platform chess GUI that aims to be powerful, customizable and easy to use.",
   cleanUrls: true,
   head: [["link", { rel: "icon", href: "/logo.webp" }]],
+  mpa: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
