@@ -16,7 +16,13 @@ export default defineConfig({
       { text: "Download", link: "/download" },
     ],
     search: {
-      provider: "local",
+      provider: "algolia",
+      options: {
+        apiKey: '9b321cba2b8ba9a317bbdbf11e48caaa',
+        appId: 'FCX13G6J5L',
+        indexName: 'encroissant',
+        insights: true,
+      }
     },
 
     sidebar: {
