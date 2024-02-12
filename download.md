@@ -1,7 +1,6 @@
 ---
 title: Download
 layout: download
-search: false
 ---
 
 <script setup>
