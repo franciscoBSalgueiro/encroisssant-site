@@ -7,9 +7,11 @@ const uniqueEngines = engines.filter(
 
 const mappedEngines = uniqueEngines.map((engine) => {
   return {
-    avatar: engine.image,
+    image: engine.image,
     name: engine.name,
+    elo: engine.elo,
     title: "v" + engine.version,
+    url: engine.downloadLink,
   };
 });
 
