@@ -18,11 +18,11 @@ export default defineConfig({
     search: {
       provider: "algolia",
       options: {
-        apiKey: '9b321cba2b8ba9a317bbdbf11e48caaa',
-        appId: 'FCX13G6J5L',
-        indexName: 'encroissant',
+        apiKey: "9b321cba2b8ba9a317bbdbf11e48caaa",
+        appId: "FCX13G6J5L",
+        indexName: "encroissant",
         insights: true,
-      }
+      },
     },
 
     sidebar: {
@@ -39,8 +39,12 @@ export default defineConfig({
           items: [
             { text: "Analyze Game", link: "/docs/guides/analyze-game" },
             {
-              text: "Manage repertoire",
+              text: "Manage Repertoire",
               link: "/docs/guides/manage-repertoire",
+            },
+            {
+              text: "Configure Engines",
+              link: "/docs/guides/configure-engines",
             },
           ],
         },
