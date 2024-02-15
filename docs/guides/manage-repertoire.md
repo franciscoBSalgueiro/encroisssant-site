@@ -10,9 +10,9 @@ On En Croissant, the repertoire is just a normal PGN file, so you can add variat
 
 To create a repertoire, go to the Files page, click on the `Create` button and select `Repertoire`. Open the file and start adding variations to it. You can also set a position as the starting position of the repertoire by clicking right-clicking on the move in the notation and selecting `Mark as start`.
 
-## Training mode
+## Practice mode
 
-In the Info panel, you can enable the training mode by clicking on the `Training` button. This will enable the training mode, which will show you the next move in the repertoire and allow you to play it on the board.
+In the Info panel, you can enable the training mode by clicking on the `Practice` button. This will enable the training mode, which will show you the next move in the repertoire and allow you to play it on the board.
 
 ## Missing moves
 
