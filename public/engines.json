@@ -1,69 +1,69 @@
 [
 	{
 		"name": "Stockfish",
-		"version": "16",
+		"version": "16.1",
 		"os": "windows",
 		"bmi2": true,
 		"image": "https://upload.wikimedia.org/wikipedia/commons/3/3a/NewLogoSF.png",
-		"downloadLink": "https://github.com/official-stockfish/Stockfish/releases/download/sf_16/stockfish-windows-x86-64-avx2.zip",
+		"downloadLink": "https://github.com/official-stockfish/Stockfish/releases/latest/download/stockfish-windows-x86-64-avx2.zip",
 		"path": "stockfish/stockfish-windows-x86-64-avx2.exe",
 		"elo": 3631,
-		"downloadSize": 27493794
+		"downloadSize": 58873675
 	},
 	{
 		"name": "Stockfish",
-		"version": "16",
+		"version": "16.1",
 		"os": "windows",
 		"bmi2": false,
 		"image": "https://upload.wikimedia.org/wikipedia/commons/3/3a/NewLogoSF.png",
-		"downloadLink": "https://github.com/official-stockfish/Stockfish/releases/download/sf_16/stockfish-windows-x86-64-modern.zip",
-		"path": "stockfish/stockfish-windows-x86-64-modern.exe",
+		"downloadLink": "https://github.com/official-stockfish/Stockfish/releases/latest/download/stockfish-windows-x86-64-sse41-popcnt.zip",
+		"path": "stockfish/stockfish-windows-x86-64-sse41-popcnt.exe",
 		"elo": 3631,
-		"downloadSize": 27493794
+		"downloadSize": 58874736
 	},
 	{
 		"name": "Stockfish",
-		"version": "16",
+		"version": "16.1",
 		"os": "macos",
 		"bmi2": true,
 		"image": "https://upload.wikimedia.org/wikipedia/commons/3/3a/NewLogoSF.png",
-		"downloadLink": "https://github.com/official-stockfish/Stockfish/releases/download/sf_16/stockfish-macos-x86-64-modern.tar",
-		"path": "stockfish/stockfish-macos-x86-64-modern",
+		"downloadLink": "https://github.com/official-stockfish/Stockfish/releases/latest/download/stockfish-macos-x86-64-sse41-popcnt.tar",
+		"path": "stockfish/stockfish-macos-x86-64-sse41-popcnt",
 		"elo": 3631,
-		"downloadSize": 41702400
+		"downloadSize": 70379520
 	},
 	{
 		"name": "Stockfish",
-		"version": "16",
+		"version": "16.1",
 		"os": "macos",
 		"bmi2": false,
 		"image": "https://upload.wikimedia.org/wikipedia/commons/3/3a/NewLogoSF.png",
-		"downloadLink": "https://github.com/official-stockfish/Stockfish/releases/download/sf_16/stockfish-macos-x86-64-modern.tar",
-		"path": "stockfish/stockfish-macos-x86-64-modern",
+		"downloadLink": "https://github.com/official-stockfish/Stockfish/releases/latest/download/stockfish-macos-x86-64-sse41-popcnt.tar",
+		"path": "stockfish/stockfish-macos-x86-64-sse41-popcnt",
 		"elo": 3631,
-		"downloadSize": 41702400
+		"downloadSize": 70379520
 	},
 	{
 		"name": "Stockfish",
-		"version": "16",
+		"version": "16.1",
 		"os": "linux",
 		"bmi2": true,
 		"image": "https://upload.wikimedia.org/wikipedia/commons/3/3a/NewLogoSF.png",
-		"downloadLink": "https://github.com/official-stockfish/Stockfish/releases/download/sf_16/stockfish-ubuntu-x86-64-avx2.tar",
+		"downloadLink": "https://github.com/official-stockfish/Stockfish/releases/latest/download/stockfish-ubuntu-x86-64-avx2.tar",
 		"path": "stockfish/stockfish-ubuntu-x86-64-avx2",
 		"elo": 3631,
-		"downloadSize": 27522651
+		"downloadSize": 70287360
 	},
 	{
 		"name": "Stockfish",
-		"version": "16",
+		"version": "16.1",
 		"os": "linux",
 		"bmi2": false,
 		"image": "https://upload.wikimedia.org/wikipedia/commons/3/3a/NewLogoSF.png",
-		"downloadLink": "https://github.com/official-stockfish/Stockfish/releases/download/sf_16/stockfish-ubuntu-x86-64-modern.tar",
-		"path": "stockfish/stockfish-ubuntu-x86-64-modern",
+		"downloadLink": "https://github.com/official-stockfish/Stockfish/releases/latest/download/stockfish-ubuntu-x86-64-sse41-popcnt.tar",
+		"path": "stockfish/stockfish-ubuntu-x86-64-sse41-popcnt",
 		"elo": 3631,
-		"downloadSize": 27168656
+		"downloadSize": 70287360
 	},
 	{
 		"name": "Komodo",
