@@ -10,7 +10,6 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: "Home", link: "/" },
       { text: "Support", link: "/support" },
       { text: "Documentation", link: "/docs/" },
       { text: "Download", link: "/download" },
@@ -69,4 +68,7 @@ export default defineConfig({
       { icon: "discord", link: "https://discord.gg/tdYzfDbSSW" },
     ],
   },
+  sitemap: {
+    hostname: "https://encroissant.org",
+  }
 });
