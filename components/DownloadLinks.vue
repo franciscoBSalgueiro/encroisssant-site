@@ -18,7 +18,7 @@ const links = ref([
   },
   {
     name: "MacOS",
-    url: `${baseUrl}/v${version}/en-croissant_${version}_aarch64.dmg`,
+    url: `${baseUrl}/v${version}/en-croissant_${version}_x64.dmg`,
   },
 ]);
 </script>
