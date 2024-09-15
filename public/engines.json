@@ -7,8 +7,8 @@
 		"image": "https://upload.wikimedia.org/wikipedia/commons/3/3a/NewLogoSF.png",
 		"downloadLink": "https://github.com/official-stockfish/Stockfish/releases/latest/download/stockfish-windows-x86-64-avx2.zip",
 		"path": "stockfish/stockfish-windows-x86-64-avx2.exe",
-		"elo": 3631,
-		"downloadSize": 58873675
+		"elo": 3635,
+		"downloadSize": 65412642
 	},
 	{
 		"name": "Stockfish",
@@ -18,8 +18,8 @@
 		"image": "https://upload.wikimedia.org/wikipedia/commons/3/3a/NewLogoSF.png",
 		"downloadLink": "https://github.com/official-stockfish/Stockfish/releases/latest/download/stockfish-windows-x86-64-sse41-popcnt.zip",
 		"path": "stockfish/stockfish-windows-x86-64-sse41-popcnt.exe",
-		"elo": 3631,
-		"downloadSize": 58874736
+		"elo": 3635,
+		"downloadSize": 65413257
 	},
 	{
 		"name": "Stockfish",
@@ -29,8 +29,8 @@
 		"image": "https://upload.wikimedia.org/wikipedia/commons/3/3a/NewLogoSF.png",
 		"downloadLink": "https://github.com/official-stockfish/Stockfish/releases/latest/download/stockfish-macos-x86-64-sse41-popcnt.tar",
 		"path": "stockfish/stockfish-macos-x86-64-sse41-popcnt",
-		"elo": 3631,
-		"downloadSize": 70379520
+		"elo": 3635,
+		"downloadSize": 80081408
 	},
 	{
 		"name": "Stockfish",
@@ -40,8 +40,8 @@
 		"image": "https://upload.wikimedia.org/wikipedia/commons/3/3a/NewLogoSF.png",
 		"downloadLink": "https://github.com/official-stockfish/Stockfish/releases/latest/download/stockfish-macos-x86-64-sse41-popcnt.tar",
 		"path": "stockfish/stockfish-macos-x86-64-sse41-popcnt",
-		"elo": 3631,
-		"downloadSize": 70379520
+		"elo": 3635,
+		"downloadSize": 80081408
 	},
 	{
 		"name": "Stockfish",
@@ -51,8 +51,8 @@
 		"image": "https://upload.wikimedia.org/wikipedia/commons/3/3a/NewLogoSF.png",
 		"downloadLink": "https://github.com/official-stockfish/Stockfish/releases/latest/download/stockfish-ubuntu-x86-64-avx2.tar",
 		"path": "stockfish/stockfish-ubuntu-x86-64-avx2",
-		"elo": 3631,
-		"downloadSize": 70287360
+		"elo": 3635,
+		"downloadSize": 79953920
 	},
 	{
 		"name": "Stockfish",
@@ -62,8 +62,228 @@
 		"image": "https://upload.wikimedia.org/wikipedia/commons/3/3a/NewLogoSF.png",
 		"downloadLink": "https://github.com/official-stockfish/Stockfish/releases/latest/download/stockfish-ubuntu-x86-64-sse41-popcnt.tar",
 		"path": "stockfish/stockfish-ubuntu-x86-64-sse41-popcnt",
-		"elo": 3631,
-		"downloadSize": 70287360
+		"elo": 3635,
+		"downloadSize": 79953920
+	},
+	{
+		"name": "Berserk",
+		"version": "13",
+		"os": "windows",
+		"bmi2": true,
+		"image": "https://raw.githubusercontent.com/jhonnold/berserk/main/resources/berserk.jpg",
+		"downloadLink": "https://github.com/jhonnold/berserk/releases/download/13/berserk-13-avx2.exe",
+		"path": "berserk-13-avx2.exe",
+		"elo": 3614,
+		"downloadSize": 25386496
+	},
+	{
+		"name": "Berserk",
+		"version": "13",
+		"os": "windows",
+		"bmi2": false,
+		"image": "https://raw.githubusercontent.com/jhonnold/berserk/main/resources/berserk.jpg",
+		"downloadLink": "https://github.com/jhonnold/berserk/releases/download/13/berserk-13-ssse3.exe",
+		"path": "berserk-13-ssse3.exe",
+		"elo": 3614,
+		"downloadSize": 25385984
+	},
+	{
+		"name": "Obsidian",
+		"version": "13",
+		"os": "windows",
+		"bmi2": true,
+		"image": "https://images.chesscomfiles.com/chess-themes/computer_chess_championship/avatars/lrg_obsidian.png",
+		"downloadLink": "https://github.com/gab8192/Obsidian/releases/download/v13.0/Obsidian130-avx2.exe",
+		"path": "Obsidian130-avx2.exe",
+		"elo": 3612,
+		"downloadSize": 17456640
+	},
+	{
+		"name": "Obsidian",
+		"version": "13",
+		"os": "windows",
+		"bmi2": false,
+		"image": "https://images.chesscomfiles.com/chess-themes/computer_chess_championship/avatars/lrg_obsidian.png",
+		"downloadLink": "https://github.com/gab8192/Obsidian/releases/download/v13.0/Obsidian130-avx2.exe",
+		"path": "Obsidian130-avx2.exe",
+		"elo": 3612,
+		"downloadSize": 17456640
+	},
+	{
+		"name": "Caissa",
+		"version": "1.20",
+		"os": "windows",
+		"bmi2": true,
+		"image": "https://user-images.githubusercontent.com/5882734/193368109-abce432b-85e9-4f11-bb3c-57fd3d27db22.jpg",
+		"downloadLink": "https://github.com/Witek902/Caissa/releases/download/1.20/caissa-1.20-x64-avx2.exe",
+		"path": "caissa-1.20-x64-avx2.exe",
+		"elo": 3606,
+		"downloadSize": 18589696
+	},
+	{
+		"name": "Caissa",
+		"version": "1.20",
+		"os": "windows",
+		"bmi2": false,
+		"image": "https://user-images.githubusercontent.com/5882734/193368109-abce432b-85e9-4f11-bb3c-57fd3d27db22.jpg",
+		"downloadLink": "https://github.com/Witek902/Caissa/releases/download/1.20/caissa-1.20-x64-sse4-popcnt.exe",
+		"path": "caissa-1.20-x64-sse4-popcnt.exe",
+		"elo": 3606,
+		"downloadSize": 18702848
+	},
+	{
+		"name": "PlentyChess",
+		"version": "2.1.0",
+		"os": "windows",
+		"bmi2": true,
+		"image": "https://tcec-chess.com/image/engine/PlentyChess.png",
+		"downloadLink": "https://github.com/Yoshie2000/PlentyChess/releases/download/v2.1.0/PlentyChess-2.1.0-avx2.exe",
+		"path": "PlentyChess-2.1.0-avx2.exe",
+		"elo": 3606,
+		"downloadSize": 25269076
+	},
+	{
+		"name": "PlentyChess",
+		"version": "2.1.0",
+		"os": "windows",
+		"bmi2": false,
+		"image": "https://tcec-chess.com/image/engine/PlentyChess.png",
+		"downloadLink": "https://github.com/Yoshie2000/PlentyChess/releases/download/v2.1.0/PlentyChess-2.1.0-avx2.exe",
+		"path": "PlentyChess-2.1.0-avx2.exe",
+		"elo": 3606,
+		"downloadSize": 25269076
+	},
+	{
+		"name": "PlentyChess",
+		"version": "2.1.0",
+		"os": "linux",
+		"bmi2": true,
+		"image": "https://tcec-chess.com/image/engine/PlentyChess.png",
+		"downloadLink": "https://github.com/Yoshie2000/PlentyChess/releases/download/v2.1.0/PlentyChess-2.1.0-avx2",
+		"path": "PlentyChess-2.1.0-avx2",
+		"elo": 3606,
+		"downloadSize": 22309712
+	},
+	{
+		"name": "PlentyChess",
+		"version": "2.1.0",
+		"os": "linux",
+		"bmi2": false,
+		"image": "https://tcec-chess.com/image/engine/PlentyChess.png",
+		"downloadLink": "https://github.com/Yoshie2000/PlentyChess/releases/download/v2.1.0/PlentyChess-2.1.0-avx2",
+		"path": "PlentyChess-2.1.0-avx2",
+		"elo": 3606,
+		"downloadSize": 22309712
+	},
+	{
+		"name": "RubiChess",
+		"version": "20240817",
+		"os": "windows",
+		"bmi2": true,
+		"image": "https://images.chesscomfiles.com/chess-themes/computer_chess_championship/avatars/lrg_rubi.png",
+		"downloadLink": "https://github.com/Matthies/RubiChess/releases/download/20240817/RubiChess-20240817.zip",
+		"path": "windows/RubiChess-20240817_x86-64-avx2.exe",
+		"elo": 3600,
+		"downloadSize": 31417660
+	},
+	{
+		"name": "RubiChess",
+		"version": "20240817",
+		"os": "windows",
+		"bmi2": false,
+		"image": "https://images.chesscomfiles.com/chess-themes/computer_chess_championship/avatars/lrg_rubi.png",
+		"downloadLink": "https://github.com/Matthies/RubiChess/releases/download/20240817/RubiChess-20240817.zip",
+		"path": "windows/RubiChess-20240817_x86-64-modern.exe",
+		"elo": 3600,
+		"downloadSize": 31417660
+	},
+	{
+		"name": "RubiChess",
+		"version": "20240817",
+		"os": "linux",
+		"bmi2": true,
+		"image": "https://images.chesscomfiles.com/chess-themes/computer_chess_championship/avatars/lrg_rubi.png",
+		"downloadLink": "https://github.com/Matthies/RubiChess/releases/download/20240817/RubiChess-20240817.zip",
+		"path": "linux/RubiChess-20240817_x86-64-avx2",
+		"elo": 3600,
+		"downloadSize": 31417660
+	},
+	{
+		"name": "RubiChess",
+		"version": "20240817",
+		"os": "linux",
+		"bmi2": false,
+		"image": "https://images.chesscomfiles.com/chess-themes/computer_chess_championship/avatars/lrg_rubi.png",
+		"downloadLink": "https://github.com/Matthies/RubiChess/releases/download/20240817/RubiChess-20240817.zip",
+		"path": "linux/RubiChess-20240817_x86-64-modern",
+		"elo": 3600,
+		"downloadSize": 31417660
+	},
+	{
+		"name": "Dragon by Komodo",
+		"version": "1",
+		"os": "windows",
+		"bmi2": true,
+		"image": "https://images.chesscomfiles.com/chess-themes/computer_chess_championship/avatars/lrg_dragon.png",
+		"downloadLink": "https://komodochess.com/pub/dragon.zip",
+		"path": "dragon_05e2a7/Windows/dragon-64bit-avx2.exe",
+		"elo": 3533,
+		"downloadSize": 85049133
+	},
+	{
+		"name": "Dragon by Komodo",
+		"version": "1",
+		"os": "windows",
+		"bmi2": false,
+		"image": "https://images.chesscomfiles.com/chess-themes/computer_chess_championship/avatars/lrg_dragon.png",
+		"downloadLink": "https://komodochess.com/pub/dragon.zip",
+		"path": "dragon_05e2a7/Windows/dragon-64bit.exe",
+		"elo": 3533,
+		"downloadSize": 85049133
+	},
+	{
+		"name": "Dragon by Komodo",
+		"version": "1",
+		"os": "linux",
+		"bmi2": true,
+		"image": "https://images.chesscomfiles.com/chess-themes/computer_chess_championship/avatars/lrg_dragon.png",
+		"downloadLink": "https://komodochess.com/pub/dragon.zip",
+		"path": "dragon_05e2a7/Linux/dragon-linux-avx2",
+		"elo": 3533,
+		"downloadSize": 85049133
+	},
+	{
+		"name": "Dragon by Komodo",
+		"version": "1",
+		"os": "linux",
+		"bmi2": false,
+		"image": "https://images.chesscomfiles.com/chess-themes/computer_chess_championship/avatars/lrg_dragon.png",
+		"downloadLink": "https://komodochess.com/pub/dragon.zip",
+		"path": "dragon_05e2a7/Linux/dragon-linux",
+		"elo": 3533,
+		"downloadSize": 85049133
+	},
+	{
+		"name": "Dragon by Komodo",
+		"version": "1",
+		"os": "macos",
+		"bmi2": true,
+		"image": "https://images.chesscomfiles.com/chess-themes/computer_chess_championship/avatars/lrg_dragon.png",
+		"downloadLink": "https://komodochess.com/pub/dragon.zip",
+		"path": "dragon_05e2a7/OSX/dragon-avx2-osx",
+		"elo": 3533,
+		"downloadSize": 85049133
+	},
+	{
+		"name": "Dragon by Komodo",
+		"version": "1",
+		"os": "macos",
+		"bmi2": false,
+		"image": "https://images.chesscomfiles.com/chess-themes/computer_chess_championship/avatars/lrg_dragon.png",
+		"downloadLink": "https://komodochess.com/pub/dragon.zip",
+		"path": "dragon_05e2a7/OSX/dragon-osx",
+		"elo": 3533,
+		"downloadSize": 85049133
 	},
 	{
 		"name": "Komodo",
