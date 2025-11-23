@@ -14,7 +14,7 @@ const links = ref([
   },
   {
     name: "Windows",
-    url: `${baseUrl}/v${version}/en-croissant_${version}_x64_en-US.msi`,
+    url: `${baseUrl}/v${version}/en-croissant_${version}_x64-setup.exe`,
   },
   {
     name: "MacOS",
