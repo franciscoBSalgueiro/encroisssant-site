@@ -10,4 +10,4 @@ The schema for the tables used in the database can be found [here](https://githu
 
 Storing the moves in a human-readable format would take a lot of space, so they are encoded in a binary format.
 
-Each move is encoded as a single byte, represeting the index of the move in the list of legal moves in the position. The move list is generated with [Shakmaty](https://github.com/niklasf/shakmaty) and then the encoded number is the index of the move in that list.
+Each move is encoded as a single byte, representing the index of the move in the list of legal moves in the position. The move list is generated with [Shakmaty](https://github.com/niklasf/shakmaty) and then the encoded number is the index of the move in that list.
