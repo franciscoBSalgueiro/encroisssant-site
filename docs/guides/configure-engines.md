@@ -37,7 +37,5 @@ Here's a list of some common options:
 - **Hash**: The size of the hash table. This is the amount of memory the engine will use to store the positions it has already analyzed.
 
 ::: warning
-**Uci_ShowWDL** is not supported. Enabling it will break the live analysis and game reports.
-
 **Uci_Chess960** is automatically enabled in games with the header `Variant "Chess960"`, so you shouldn't enable it in the engine settings. It will break the live analysis and game reports in standard chess games.
 :::
