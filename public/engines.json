@@ -1,7 +1,7 @@
 [
 	{
 		"name": "Stockfish",
-		"version": "17.1",
+		"version": "18",
 		"os": "windows",
 		"bmi2": true,
 		"image": "https://upload.wikimedia.org/wikipedia/commons/3/3a/NewLogoSF.png",
@@ -12,7 +12,7 @@
 	},
 	{
 		"name": "Stockfish",
-		"version": "17.1",
+		"version": "18",
 		"os": "windows",
 		"bmi2": false,
 		"image": "https://upload.wikimedia.org/wikipedia/commons/3/3a/NewLogoSF.png",
@@ -23,7 +23,7 @@
 	},
 	{
 		"name": "Stockfish",
-		"version": "17.1",
+		"version": "18",
 		"os": "macos",
 		"bmi2": true,
 		"image": "https://upload.wikimedia.org/wikipedia/commons/3/3a/NewLogoSF.png",
