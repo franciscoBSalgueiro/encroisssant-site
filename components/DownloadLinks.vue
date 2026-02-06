@@ -11,84 +11,104 @@ const links = ref([
   {
     name: "Linux",
     url: `${baseUrl}/v${version}/en-croissant_${version}_amd64.AppImage`,
+    icon: Linux,
+    id: "linux"
   },
   {
     name: "Windows",
     url: `${baseUrl}/v${version}/en-croissant_${version}_x64-setup.exe`,
+    icon: Windows,
+    id: "windows"
   },
   {
     name: "MacOS",
     url: `${baseUrl}/v${version}/en-croissant_${version}_x64.dmg`,
+    icon: MacOS,
+    id: "macos"
   },
 ]);
 </script>
 
 <template>
   <div :class="$style.grid">
-    <div v-for="link in links" :class="$style.wrapper">
-      <div :class="$style.col">
-        <p :class="$style.downloadName">{{ link.name }}</p>
-        <a :class="$style.download" :href="link.url">Download</a>
+    <a v-for="link in links" :key="link.name" :href="link.url" :class="$style.card">
+      <component :is="link.icon" :class="$style.icon" />
+      <div :class="$style.content">
+        <h3 :class="$style.title">{{ link.name }}</h3>
+        <span :class="$style.cta">Download</span>
       </div>
-
-      <div>
-        <Linux v-if="link.name === 'Linux'" :class="$style.logo" />
-        <Windows v-if="link.name === 'Windows'" :class="$style.logo" />
-        <MacOS v-if="link.name === 'MacOS'" :class="$style.logo" />
-      </div>
-    </div>
+    </a>
   </div>
 </template>
-
 <style module>
 .grid {
   display: grid;
-  margin-top: 3rem;
-  margin-bottom: 3rem;
   grid-template-columns: repeat(1, minmax(0, 1fr));
-  gap: 3rem;
-  justify-content: space-between;
+  gap: 1.5rem;
   width: 100%;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 640px) {
   .grid {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
 
-.wrapper {
-  display: flex;
-  padding: 1rem;
-  justify-content: space-between;
-  border-width: 1px;
-  border-style: solid;
-  height: 10rem;
-  width: 100%;
-}
-
-.col {
+.card {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
+  padding: 2.5rem 2rem;
+  background-color: var(--vp-c-bg-soft);
+  border: 1px solid var(--vp-c-border);
+  border-radius: 12px;
+  transition: all 0.25s ease;
+  text-decoration: none !important;
+  cursor: pointer;
+  height: 100%;
 }
 
-.downloadName {
-  font-size: 1.5rem;
-  line-height: 2rem;
-  font-weight: 700;
+.card:hover {
+  transform: translateY(-4px);
+  border-color: var(--vp-c-brand-1);
+  background-color: var(--vp-c-bg-soft-up);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.05);
 }
 
-.download {
-  line-height: 38px;
-  padding: 0 20px;
-  background-color: var(--vp-c-brand-3);
-  font-size: 14px;
+.icon {
+  width: 64px;
+  height: 64px;
+  margin-bottom: 1.5rem;
+  fill: var(--vp-c-text-1);
+  transition: fill 0.25s ease;
+}
+
+.card:hover .icon {
+  fill: var(--vp-c-brand-1);
+}
+
+.content {
+  text-align: center;
+}
+
+.title {
+  margin: 0;
+  font-size: 1.25rem;
   font-weight: 600;
-  transition: color 0.25s, border-color 0.25s, background-color 0.25s;
-  border-radius: 20px;
+  color: var(--vp-c-text-1);
+  margin-bottom: 0.5rem;
 }
-.download:hover {
-  background-color: var(--vp-c-brand-2);
+
+.cta {
+  display: inline-block;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--vp-c-brand-1);
+  transition: color 0.25s ease;
+}
+
+.card:hover .cta {
+  color: var(--vp-c-brand-2);
 }
 </style>

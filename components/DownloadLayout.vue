@@ -9,7 +9,7 @@
 <style scoped>
 .Download {
   position: relative;
-  padding: calc(var(--vp-nav-height) + var(--vp-layout-top-height, 0px) + 48px) 24px 48px;
+  padding: calc(var(--vp-nav-height) + var(--vp-layout-top-height, 0px) + 64px) 24px 64px;
 }
 
 @media (min-width: 640px) {
