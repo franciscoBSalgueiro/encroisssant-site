@@ -7,13 +7,12 @@ import { version } from "../global.ts";
 
 const baseUrl = "https://github.com/franciscoBSalgueiro/en-croissant/releases/download";
 
+const linuxFormats = [
+  { name: "AppImage", url: `${baseUrl}/v${version}/en-croissant_${version}_amd64.AppImage` },
+  { name: ".deb", url: `${baseUrl}/v${version}/en-croissant_${version}_amd64.deb` },
+];
+
 const links = ref([
-  {
-    name: "Linux",
-    url: `${baseUrl}/v${version}/en-croissant_${version}_amd64.AppImage`,
-    icon: Linux,
-    id: "linux"
-  },
   {
     name: "Windows",
     url: `${baseUrl}/v${version}/en-croissant_${version}_x64-setup.exe`,
@@ -31,6 +30,17 @@ const links = ref([
 
 <template>
   <div :class="$style.grid">
+    <div :class="$style.card">
+      <Linux :class="$style.icon" />
+      <div :class="$style.content">
+        <h3 :class="$style.title">Linux</h3>
+        <div :class="$style.formatBtns">
+          <a v-for="format in linuxFormats" :key="format.name" :href="format.url" :class="$style.formatBtn">
+            {{ format.name }}
+          </a>
+        </div>
+      </div>
+    </div>
     <a v-for="link in links" :key="link.name" :href="link.url" :class="$style.card">
       <component :is="link.icon" :class="$style.icon" />
       <div :class="$style.content">
@@ -110,5 +120,27 @@ const links = ref([
 
 .card:hover .cta {
   color: var(--vp-c-brand-2);
+}
+
+.formatBtns {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.formatBtn {
+  padding: 0.35rem 0.75rem;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--vp-c-brand-1) !important;
+  background-color: transparent;
+  border: 1px solid var(--vp-c-brand-1);
+  border-radius: 6px;
+  text-decoration: none !important;
+  transition: all 0.2s ease;
+}
+
+.formatBtn:hover {
+  color: var(--vp-c-white) !important;
+  background-color: var(--vp-c-brand-1);
 }
 </style>
