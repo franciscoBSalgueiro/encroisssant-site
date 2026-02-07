@@ -49,27 +49,27 @@ export default defineConfig({
     sidebar: {
       "/docs": [
         {
-          text: "Assets",
+          text: "Introduction",
           items: [
-            { text: "Databases", link: "/docs/assets/databases" },
-            { text: "Engines", link: "/docs/assets/engines" },
+            { text: "What is En Croissant?", link: "/docs/" },
+            { text: "Getting Started", link: "/docs/getting-started" },
           ],
         },
         {
           text: "Guides",
           items: [
             { text: "Analyze Game", link: "/docs/guides/analyze-game" },
-            {
-              text: "Manage Repertoire",
-              link: "/docs/guides/manage-repertoire",
-            },
-            {
-              text: "Configure Engines",
-              link: "/docs/guides/configure-engines",
-            },
+            { text: "Manage Repertoire", link: "/docs/guides/manage-repertoire" },
+            { text: "Configure Engines", link: "/docs/guides/configure-engines" },
           ],
         },
-
+        {
+          text: "Assets",
+          items: [
+            { text: "Databases", link: "/docs/assets/databases" },
+            { text: "Engines", link: "/docs/assets/engines" },
+          ],
+        },
         {
           text: "Reference",
           items: [
