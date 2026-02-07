@@ -31,7 +31,7 @@ features:
 ---
 
 <figure :class="$style.showcase">
-	<img src="/assets/showcase.webp" alt="Board" width="1550" />
+	<img src="/showcase.webp" alt="Board" width="1550" />
 	<figcaption>
 		En Croissant's analysis screen
 	</figcaption>

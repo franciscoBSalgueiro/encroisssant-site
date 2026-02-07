@@ -21,12 +21,12 @@ export default defineConfig({
     ],
     [
       "meta",
-      { property: "og:image", content: "https://encroissant.org/assets/showcase.webp" },
+      { property: "og:image", content: "https://encroissant.org/showcase.webp" },
     ],
     ["meta", { name: "twitter:card", content: "summary_large_image" }],
     [
       "meta",
-      { name: "twitter:image", content: "https://encroissant.org/assets/showcase.webp" },
+      { name: "twitter:image", content: "https://encroissant.org/showcase.webp" },
     ],
   ],
   themeConfig: {
