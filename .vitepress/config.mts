@@ -6,7 +6,29 @@ export default defineConfig({
   description:
     "An open-source, cross-platform chess GUI that aims to be powerful, customizable and easy to use.",
   cleanUrls: true,
-  head: [["link", { rel: "icon", href: "/logo.webp" }]],
+  head: [
+    ["link", { rel: "icon", href: "/logo.webp" }],
+    ["meta", { property: "og:url", content: "https://encroissant.org" }],
+    ["meta", { property: "og:type", content: "website" }],
+    ["meta", { property: "og:title", content: "En Croissant" }],
+    [
+      "meta",
+      {
+        property: "og:description",
+        content:
+          "An open-source, cross-platform chess GUI that aims to be powerful, customizable and easy to use.",
+      },
+    ],
+    [
+      "meta",
+      { property: "og:image", content: "https://encroissant.org/assets/showcase.webp" },
+    ],
+    ["meta", { name: "twitter:card", content: "summary_large_image" }],
+    [
+      "meta",
+      { name: "twitter:image", content: "https://encroissant.org/assets/showcase.webp" },
+    ],
+  ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
