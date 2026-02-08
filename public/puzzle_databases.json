@@ -2,8 +2,8 @@
 	{
 		"title": "Lichess Puzzles",
 		"description": "A collection of all puzzles from Lichess.org",
-		"puzzle_count": 3080529,
-		"storage_size": 339046400,
+		"puzzleCount": 3080529,
+		"storageSize": 339046400,
 		"downloadLink": "https://pub-561e4f3376ea4e4eb2ffd01a876ba46e.r2.dev/puzzles.db3"
 	}
 ]
