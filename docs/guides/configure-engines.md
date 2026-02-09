@@ -10,7 +10,6 @@ General settings are the basic information about the engine.
 
 - **Name and version**
 - **ELO**: The estimated strength of the engine.
-- **Enabled**: Whether the engine will be shown in the live analysis.
 - **Image**: Click on the image to change it.
 
 ### Search settings
