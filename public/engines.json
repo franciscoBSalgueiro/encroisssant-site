@@ -247,7 +247,7 @@
 		"os": "windows",
 		"bmi2": true,
 		"image": "https://lczero.org/images/logo.svg",
-		"downloadLink": "https://pub-561e4f3376ea4e4eb2ffd01a876ba46e.r2.dev/lc0-v0.30.0-windows-gpu-nvidia-cuda.zip",
+		"downloadLink": "https://db.encroissant.org/lc0-v0.30.0-windows-gpu-nvidia-cuda.zip",
 		"path": "lc0-v0.30.0-windows-gpu-nvidia-cuda/lc0.exe",
 		"elo": 3440,
 		"downloadSize": 251872888
